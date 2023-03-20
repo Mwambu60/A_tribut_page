@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+ justify-content: center;
+ align-items: center;
+ padding-left: 40%;
+ padding-top: 40px;
+}
+
+.parent_image {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.image {
+    background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg);
+    background-size: cover;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.forli ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.parent {
+    background-color: #EEEEEE;
+    margin: 30px 24px 25px 24px;
+}
